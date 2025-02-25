@@ -7,13 +7,13 @@
 
 # SNOWFLAKE ADVANTAGE: Snowpark Python programmability
 # SNOWFLAKE ADVANTAGE: Python UDFs (with third-party packages)
-# SNOWFLAKE ADVANTAGE: SnowCLI (PuPr)
+# SNOWFLAKE ADVANTAGE: SnowCLI (PuPr )
 
 import sys
 from scipy.constants import convert_temperature
 
 def main(temp_f: float) -> float:
-    return convert_temperature(float(temp_f), 'F', 'C')
+    return convert_temperature(float(temp_f), 'F', 'C')                                                                     
 
 
 # For local debugging
